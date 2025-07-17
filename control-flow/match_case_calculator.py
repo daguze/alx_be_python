@@ -14,7 +14,7 @@ match type_of_operation:
         if num2 != 0:
             result = num1 / num2
         else:
-            result = "Error: Division by zero."
+            result = "Cannot divide by zero."
     case _:
         result = "Invalid operation."
 
