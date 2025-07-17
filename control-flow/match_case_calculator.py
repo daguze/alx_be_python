@@ -18,4 +18,4 @@ match operation:
     case _:
         result = "Invalid operation."
 
-print(f"Result: {result}")
+print(f"The result is {result}.")
