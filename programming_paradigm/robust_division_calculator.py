@@ -8,7 +8,7 @@ def safe_divide(numerator, denominator):
     
     
     try:
-        return num / denom
+        result = num / denom
     except ZeroDivisionError:
         return "Error: Cannot divide by zero."
-    return f"The result of the division is {num / denom:.1f}"
+    print(f"The result of the division is {result:.1f}")
